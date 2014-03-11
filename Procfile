@@ -1,1 +1,1 @@
-web: bin/zentasks -Dhttp.port=${PORT} ${JAVA_OPTS} -DapplyEvolutions.default=true
+web: play run --http.port=$PORT $PLAY_OPTS
