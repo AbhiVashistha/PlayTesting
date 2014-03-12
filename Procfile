@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/zentasks
+web: target/universal/stage/bin/zentasks -DapplyEvolutions.default=true
