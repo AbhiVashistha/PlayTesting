@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/zentasks -DapplyEvolutions.default=true
+web: target/start -Dhttp.port=${PORT} ${JAVA_OPTS}
