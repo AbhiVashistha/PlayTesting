@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/zentasks -DapplyEvolutions.default=true --http.port=$PORT
+web: target/universal/stage/bin/zentasks -DapplyEvolutions.default=true
